@@ -1,0 +1,8 @@
+torch>=2.0.0
+
+# Upgrade 파인튜닝에 필요 (standalone 추론만 할 경우 불필요)
+transformers>=4.40.0
+datasets>=2.18.0        # --dataset wikitext 사용 시
+
+# Optional: tiktoken (transformers 없을 때 GPT-2 토크나이저 fallback)
+tiktoken>=0.5.0
