@@ -4,6 +4,8 @@ ComfyUI 커스텀 노드 — **FFTNet** 언어 모델 추론.
 
 FFTNet은 2025년 2월 발표된 논문 ["The FFT Strikes Back: An Efficient Alternative to Self-Attention"](https://arxiv.org/abs/2502.18394) (arXiv:2502.18394)에서 제안된 모델로, 기존 트랜스포머의 O(n²) 셀프어텐션을 **O(n log n) FFT 기반 전역 토큰 믹싱**으로 대체합니다.
 
+![ComfyUI FFTNet 워크플로우](ScrShot%206.png)
+
 ---
 
 ## 아키텍처 개요
